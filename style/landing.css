@@ -1,3 +1,13 @@
+/*google font*/
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 
 .header{
    background-image:url(../Assets/Hero-bg.png);
@@ -15,15 +25,24 @@ nav{
 .Logo{
     color:#4E47FF;
     font-size: 34px;
+    font-family:inter;
+    font-weight:700;
 }
 .nav-button{
     color:#FFFFFF;
     background-color: #4E47FF;
-    padding: 12px;
+    padding:12px 36px;
     border-radius:10px;
     border-style: none;
+    font-family:Raleway;
+    font-size:18px;
+    font-weight:50px;
 }
-
+.nav-button:hover{
+    background-color:#DAA520;
+    color:black;
+    cursor: pointer;
+}
 /* banner style*/
 
 .banner-content{
@@ -32,7 +51,7 @@ nav{
 }
 .banner-title{
     width: 905px;;
-   
+   font-family:Raleway;
     font-weight: bold;
     font-size:65px;;
 }
@@ -42,7 +61,12 @@ nav{
     border-radius:10px;
     padding:12px 36px 12px 36px;
     border-style: none;
-    
+    font-family:Raleway;
+}
+.banner-button:hover{
+    background-color:#DAA520;
+    color:black;
+    cursor: pointer;
 }
 /*main style*/
 .main-style{
@@ -66,10 +90,12 @@ height: 203px;
     color: #252432;
     font-size:42px;
     font-weight: bold;
+    font-family:Raleway;
 }
 .See-It-in-Action-p{
     color:rgba(37, 36, 50, 0.5);
     font-size: 24px;
+    font-family:Raleway;
 }
 .See-It-in-Action-btn{
     background-color: #4E47FF;
@@ -77,7 +103,12 @@ height: 203px;
     border-radius: 5px;
     border-style:none;
     color:#FFFFFF;
-    
+    font-family:Raleway;
+}
+.See-It-in-Action-btn:hover{
+    background-color:#DAA520;
+    color:black;
+    cursor: pointer;
 }
 .See-It-in-Action-img{
     width: 403px;
@@ -92,10 +123,10 @@ height: 203px;
     margin-left:150px;
     margin-right:150px;
     margin-bottom:185px;
-     background-color:rgba(78, 71, 255, 0.2);
+    background-color:rgba(78, 71, 255, 0.2);
     text-align: center;
     padding-top: 50px;
-   
+    border-radius:10px;
 }
 
 .Joined-Thousands-of-Productive-Users-title
@@ -104,6 +135,7 @@ height: 203px;
    font-size: 42px;
    font-weight: bold;
    margin-bottom: 0px;
+   font-family:Raleway;
 }
 .Joined-Thousands-of-Productive-Users-num {
     display: flex;
@@ -113,6 +145,7 @@ height: 203px;
     font-weight: bold;
     color:#4E47FF;
     margin-top:30px;
+    font-family:inter;
     
 }
 .Joined-Thousands-of-Productive-Users-num h5{
@@ -125,7 +158,8 @@ height: 203px;
         display: flex;
         font-size:22px; 
         justify-content: center;
-        gap:180px;    
+        gap:180px;
+        font-family:inter;    
 }
 .Joined-Thousands-of-Productive-Users-text p{
     margin-top:0px;
@@ -142,6 +176,7 @@ height: 203px;
 .What-our-users-say-title{
     font-size: 42px;
     font-weight: bold;
+    font-family:Raleway;
 }
 .Loved-by-Designers{
     width: 1140px;
@@ -177,13 +212,15 @@ height: 203px;
 .avater-text-date{
     color: rgba(179, 179, 179, 1);
 }
+
+/*Ready to focus better style*/
 .Ready-to-focus-better-container{
     width: 1140px;
     height:697px;
     text-align: center;
     margin:137px 150px 92px 150px;
     background-color: #FFFFFF;
-   
+    border-radius:10px;
 }
 .Ready-to-focus-div{
     margin-bottom:0px;
@@ -192,6 +229,7 @@ height: 203px;
     font-size:60px;
     font-weight:bold;
     padding-top:50px;
+    font-family:Raleway;
 }
 .Ready-to-focus-better-parah{
     font-size:20px;
@@ -203,15 +241,19 @@ height: 203px;
     margin-top:-40px;
 }
 .Ready-to-focus-better-btn{
-    width:195px;
-    height:48px;
+    padding:12px 36px;
     background-color: #4E47FF;
     border-radius:10px;
     font-size: 16px;
     border-style:none;
     color:#FFFFFF;
+    font-family:Raleway;
+}
+.Ready-to-focus-better-btn:hover{
    
-    
+    background-color:#DAA520;
+    color:black;
+    cursor: pointer;
 }
 .Ready-to-focus-better-imag{
     width:840px;
@@ -229,16 +271,19 @@ height: 203px;
     display:flex;
     align-items: center;
     gap:60px;
+    padding-bottom:71px ;
     
 }
 .Lets-Get-in-Touch-title{
     width: 50%;
     height:232px;
     font-size:90px;
-    font-weight:800;  
+    font-weight:800;
+    font-family:Raleway;  
 }
 label{
     font-size: 20px;
+    font-family: inter;
    
 }
 input[type="email"],input[type="name"],input[type="message"]
@@ -252,15 +297,10 @@ input[type="email"],input[type="name"],input[type="message"]
     border-radius:10px;
     border-style: none;
     margin-top:5px;
+    font-family:inter;
 }
-textarea{
-    width:95%;
-    margin-bottom:10px;
-    border-style: none;
-    border-radius:10px;
-    padding-top:20px;
-    padding-left:32px;
-    font-size:20px;
+input[type="message"]{
+    padding-bottom:85px;
 }
 input[type="submit"]
 {
@@ -271,7 +311,14 @@ input[type="submit"]
     border-radius:10px;
     background-color: #4E47FF;
     color:#FFFFFF;
+    font-family:Raleway;
     
+}
+input[type="submit"]:hover{
+   
+    background-color:#DAA520;
+    color:black;
+    cursor: pointer;
 }
 .form-div{
     width:50%;
@@ -296,13 +343,15 @@ input[type="submit"]
     font-size:100px;
     font-weight:900;
     color: rgba(78, 71, 255, 1);
+    font-family:Raleway;
 }
 
 .footer-ul{
     display: flex;
-    gap:30px;
+    gap:35px;
     font-size:24px;
     list-style: none;
+    justify-content: center;
 }
 
 
